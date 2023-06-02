@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                FoodiesForever
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu List
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#Pakistani">Pakistani</a></li>
+                            <li><a class="dropdown-item" href="#Chinese">Chinese</a></li>
+                            <li><a class="dropdown-item" href="#French">French</a></li>
+                            <li><a class="dropdown-item" href="#Italian">Italian</a></li>
+                            <li><a class="dropdown-item" href="#Turkish">Turkish</a></li>
+                            <li><a class="dropdown-item" href="#Russian">Russian</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#Additional">Additional</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,burger" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to FoodiesForever!</h5>
+                    <p>A place where you can find your favorite food.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,pizza" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Perfectly cooked!</h5>
+                    <p>A perfectly cooked meal is all what you need.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,platter" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Recipes of different nations!</h5>
+                    <p>Thousands of recipes of different nations.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <h2 style="margin: 30px;" id="Pakistani">Pakistani</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?burger" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,tikka" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,dessert" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,karahi" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,curry" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="margin: 30px;" id="Chinese">Chinese</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,sushi" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,Wonton" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,mapo-tofu" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,spring-roll" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,kungpao" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h2 style="margin: 30px;" id="French">French</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,french" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,french,fries" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,french,curry" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,french,pasta" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,macaroni" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h2 style="margin: 30px;" id="Italian">Italian</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,italian,pizza" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,italian" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,italian,pasta" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,italian,grilled" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,italian,curry" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 style="margin: 30px;" id="Turkish">Turkish</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,turkish" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,turkish,bites" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,turkish,dessert" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,turkish,fried" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,turkish,curry" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 style="margin: 30px;" id="Russian">Russian</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?burger,russian" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,russian,cake" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,russian,platter" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,russian,noodle" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?food,russian,curry" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <h2 style="margin: 30px;" id="Additional">Additional</h2>
+
+    <div class="container-fluid d-flex">
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?cream" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?fruits,dessert" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?pepsi,drink" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?roti" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img class="img-fluid" src="https://source.unsplash.com/1400x500?salad" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">order now!</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 FoodiesForever</p>
+      </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
